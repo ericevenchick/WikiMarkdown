@@ -1,6 +1,6 @@
 <?php
 
-class ResourceLoaderWikiMarkdownVisualEditorModule extends ResourceLoaderFileModule {
+class ResourceLoaderWikiMarkdownVisualEditorModule extends MediaWiki\ResourceLoader\FileModule {
 
 	protected $targets = [ 'desktop', 'mobile' ];
 
