@@ -8,7 +8,7 @@ class ResourceLoaderWikiMarkdownVisualEditorModule extends MediaWiki\ResourceLoa
 	 * @param ResourceLoaderContext $context
 	 * @return string JavaScript code
 	 */
-	public function getScript( ResourceLoaderContext $context ) {
+	public function getScript( MediaWiki\ResourceLoader\Context $context ) {
 		$scripts = parent::getScript( $context );
 
 		return $scripts;
